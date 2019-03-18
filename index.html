@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dice Game</title>
+  <!-- css link -->
+  <link href="index.css" rel="stylesheet">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <!-- result -->
+  <div class="result">
+    <p class="status" id="head">
+      Refresh Me!
+    </p>
+  </div>
+  <!-- dicee -->
+  <div class="container">
+    <!-- to bring it to center -->
+    <div class="dice1">
+      <p>Player 1</p>
+      <img class="img1" src="d1.png">
+    </div>
+    <div class="dice2">
+      <p>Player 2</p>
+      <img class="img2" src="d1.png">
+    </div>
+  </div>
+  <!-- Roll -->
+  <div class="roll">
+    <p class="roll-text">Roll the Dice</p>
+    <button class="diceroll" onclick="dicegame()"><img id="dice" src="dice.png"></button>
+  </div>
+  <!-- javascript link -->
+  <script src="index.js"></script>
+</body>
+
+
+</html>

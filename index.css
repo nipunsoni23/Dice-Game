@@ -1,0 +1,69 @@
+/* overall background colour */
+body{
+  background-color: #004080;
+  margin:0;
+  padding:0;
+}
+/* result text decoration */
+.result
+{
+  text-align:center;
+  color: white;
+  font-size: 500%;
+  font-family: 'Lilita One', cursive;
+}
+.status{ margin:2%;}
+
+/* dice text decoration */
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-family: 'Lilita One', cursive;
+  text-align:center;
+}
+/* image decoration */
+.img1,.img2
+{height: 200px;
+width: 200px;
+border-radius:10%; 
+}
+.dice1,.dice2{
+  padding: 0% 3%;
+  font-size:300%;
+  
+
+}
+
+#flag{ width: 5rem; height: 5rem;}
+/* roll dice decoration */
+.roll{
+  align-items:center;
+  text-align: center;
+  font-family: 'Lilita One', cursive;  font-size:150%;
+  color: white;
+}
+.diceroll{
+  background:none;
+  border:none;}
+
+.diceroll:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  cursor:pointer;
+}
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
